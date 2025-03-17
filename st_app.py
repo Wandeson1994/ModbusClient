@@ -32,7 +32,7 @@ lout = st.Page(
 
 
 modbus = st.Page(
-    page="pages/deshboards.py",
+    page="pages/modbus.py",
     title="Dados Modbus",
     icon=":material/bar_chart:",
 )
