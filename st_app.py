@@ -31,7 +31,7 @@ lout = st.Page(
 )
 
 
-deshboards = st.Page(
+modbus = st.Page(
     page="pages/deshboards.py",
     title="Dados Modbus",
     icon=":material/bar_chart:",
@@ -41,7 +41,7 @@ if st.session_state.logged_in:
     pg = st.navigation(
         {
             "Account": [lout],
-            "Pages": [deshboards],
+            "Pages": [modbus],
         }
     )
 else:
